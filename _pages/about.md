@@ -5,21 +5,19 @@ permalink: /
 description: Zhitong Chen — LLM agents, planning, and evaluation.
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=4">
-<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=3">
+<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=5">
+<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=5">
 
 <div class="academic-topbar">
   <div class="academic-topbar-inner">
     <a class="academic-wordmark" href="{{ '/' | relative_url }}">Zhitong Chen<span class="wordmark-dot">.</span></a>
-    <nav class="academic-navigation" aria-label="Main navigation">
-<a href="{{ '/' | relative_url }}#about-me">About Me</a>
-<a href="{{ '/' | relative_url }}#news">News</a>
-<a href="{{ '/research/' | relative_url }}">Research</a>
-<a href="{{ '/publications/' | relative_url }}">Publications</a>
-<a href="{{ '/' | relative_url }}#education">Education</a>
-<a href="{{ '/cv/' | relative_url }}">CV</a>
-<a href="{{ '/' | relative_url }}#service">Service</a>
-</nav>
+    <nav class="academic-navigation" aria-label="Homepage sections">
+      <a href="{{ '/' | relative_url }}#about-me">About Me</a>
+      <a href="{{ '/' | relative_url }}#news">News</a>
+      <a href="{{ '/' | relative_url }}#publications">Publications</a>
+      <a href="{{ '/' | relative_url }}#education">Education</a>
+      <a href="{{ '/' | relative_url }}#service">Service</a>
+    </nav>
   </div>
 </div>
 
@@ -28,17 +26,24 @@ description: Zhitong Chen — LLM agents, planning, and evaluation.
     <div class="profile-photo-frame"><img class="profile-photo" src="{{ '/assets/img/zhitong-chen.jpg' | relative_url }}" alt="Zhitong Chen" width="144" height="168"></div>
     <h1>Zhitong Chen</h1>
     <p class="profile-role">Ph.D. Student in Computer Science</p>
-    <a class="profile-university" href="https://www.tamu.edu/">Texas A&amp;M University</a>
+    <p class="profile-university">Texas A&amp;M University</p>
     <p class="profile-focus">Studying how language models reason, plan, and use tools reliably.</p>
     <div class="profile-topics" aria-label="Research interests">
       <span>LLM Agents</span><span>Planning</span><span>Evaluation</span>
     </div>
+    <nav class="sidebar-navigation" aria-label="Pages">
+      <a href="{{ '/' | relative_url }}" aria-current="page"><i class="fa-solid fa-house" aria-hidden="true"></i>Home</a>
+      <a href="{{ '/research/' | relative_url }}"><i class="fa-solid fa-flask" aria-hidden="true"></i>Research</a>
+      <a href="{{ '/publications/' | relative_url }}"><i class="fa-solid fa-book-open" aria-hidden="true"></i>Publications</a>
+      <a href="{{ '/cv/' | relative_url }}"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>CV</a>
+    </nav>
     <div class="profile-contact">
       <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>College Station, TX, USA</span></p>
       <a href="mailto:zhitong.chen18@tamu.edu"><i class="fa-regular fa-envelope" aria-hidden="true"></i><span>zhitong.chen18@tamu.edu</span></a>
       <a href="https://scholar.google.com/citations?user=B3YFm44AAAAJ"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span></a>
       <a href="https://github.com/TamuChen18"><i class="fa-brands fa-github" aria-hidden="true"></i><span>GitHub</span></a>
-      <a href="{{ '/cv/' | relative_url }}"><i class="fa-regular fa-file-lines" aria-hidden="true"></i><span>Curriculum Vitae</span></a>
+      <a href="https://www.linkedin.com/in/zhitong-chen-76225b287/"><i class="fa-brands fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+      <a href="https://huggingface.co/tamuzc"><span class="profile-social-icon" aria-hidden="true">🤗</span><span>Hugging Face</span></a>
     </div>
     <a class="profile-contact-button" href="mailto:zhitong.chen18@tamu.edu">Get in touch <span aria-hidden="true">↗</span></a>
   </aside>
@@ -55,17 +60,17 @@ description: Zhitong Chen — LLM agents, planning, and evaluation.
     </section>
 
     <section class="academic-section" id="news" aria-labelledby="news-heading">
-      <div class="section-title-row"><h2 id="news-heading">News</h2><span class="section-caption">Recent updates</span></div>
+      <div class="section-title-row"><h2 id="news-heading"><span class="heading-icon" aria-hidden="true">🔥</span>News</h2><span class="section-caption">Recent updates</span></div>
       <ul class="news-list">
-        <li><time datetime="2026-10-31">Oct 2026</time><p>New preprint: <a href="https://arxiv.org/abs/2611.00579">From Apparent Search Gains to Selection Failures</a>, on auditing test-time inference in structured workflow planning.</p></li>
-        <li><span class="news-date">2026</span><p><strong>DisasterBench</strong> accepted to <strong>Findings of EMNLP 2026</strong>.</p></li>
-        <li><span class="news-date">2026</span><p><strong>DisastQA</strong> published in <strong>Findings of ACL 2026</strong> and presented as a poster at ACL.</p></li>
-        <li><time datetime="2025-12">Dec 2025</time><p>Completed my <strong>M.S. in Computer Science</strong> at Texas A&amp;M University.</p></li>
+        <li><time datetime="2026-10-31">Oct 2026</time><p><span class="news-icon" aria-hidden="true">🚀</span>New preprint: <a href="https://arxiv.org/abs/2611.00579">From Apparent Search Gains to Selection Failures</a>, on auditing test-time inference in structured workflow planning.</p></li>
+        <li><span class="news-date">2026</span><p><span class="news-icon" aria-hidden="true">🎉</span><strong>DisasterBench</strong> accepted to <strong>Findings of EMNLP 2026</strong>.</p></li>
+        <li><span class="news-date">2026</span><p><span class="news-icon" aria-hidden="true">🎉</span><strong>DisastQA</strong> published in <strong>Findings of ACL 2026</strong> and presented as a poster at ACL.</p></li>
+        <li><time datetime="2025-12">Dec 2025</time><p><span class="news-icon" aria-hidden="true">🎓</span>Completed my <strong>M.S. in Computer Science</strong> at Texas A&amp;M University.</p></li>
       </ul>
     </section>
 
     <section class="academic-section" id="publications" aria-labelledby="publications-heading">
-      <div class="section-title-row"><h2 id="publications-heading">Publications &amp; Manuscripts</h2><a class="section-more" href="{{ '/publications/' | relative_url }}">Full list <span aria-hidden="true">↗</span></a></div>
+      <div class="section-title-row"><h2 id="publications-heading"><span class="heading-icon" aria-hidden="true">📝</span>Publications &amp; Manuscripts</h2><a class="section-more" href="{{ '/publications/' | relative_url }}">Full list <span aria-hidden="true">↗</span></a></div>
       <p class="publication-note">* Equal contribution. Figures are from the corresponding papers. Click a figure to enlarge.</p>
       <div class="publications">
         {% bibliography --query @*[selected=true]* %}
