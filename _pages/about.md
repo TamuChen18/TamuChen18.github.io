@@ -6,7 +6,7 @@ description: Zhitong Chen — Computer Science Ph.D. student at Texas A&M Univer
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=3">
-<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=1">
+<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=2">
 
 <div class="academic-topbar">
   <div class="academic-topbar-inner">

@@ -182,7 +182,7 @@ body > .container[role="main"] {
   min-width: 0;
 }
 .academic-section {
-  scroll-margin-top: 105px;
+  scroll-margin-top: 0;
   margin-bottom: 46px;
   padding-bottom: 40px;
   border-bottom: 1px solid var(--academic-rule);
@@ -548,5 +548,11 @@ a:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+}
+
+@media (max-height: 700px) and (min-width: 801px) {
+  .academic-sidebar {
+    position: static;
   }
 }
