@@ -82,3 +82,8 @@
   overflow-x: auto;
   max-width: 100%;
 }
+.publications .abbr abbr,
+.publications .abbr abbr a {
+  color: #fff !important;
+  text-decoration: none;
+}
