@@ -1,65 +1,49 @@
 ---
-layout: page
-permalink: /research/
+layout: default
 title: research
-nav: true
-nav_order: 1
-description: LLM agents, structured planning, and reliable evaluation.
+permalink: /research/
+description: Research by Zhitong Chen in LLM agents, planning, and evaluation.
 ---
 
-## Test-Time Inference for Structured Planning
+<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=4">
+<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=3">
 
-**From Apparent Search Gains to Selection Failures: Auditing Test-Time Inference in Structured Workflow Planning**<br>
-Preprint · Under review · 2026
+<div class="academic-topbar">
+  <div class="academic-topbar-inner">
+    <a class="academic-wordmark" href="{{ '/' | relative_url }}">Zhitong Chen<span class="wordmark-dot">.</span></a>
+    <nav class="academic-navigation" aria-label="Main navigation">
+<a href="{{ '/' | relative_url }}#about-me">About Me</a>
+<a href="{{ '/' | relative_url }}#news">News</a>
+<a href="{{ '/research/' | relative_url }}">Research</a>
+<a href="{{ '/publications/' | relative_url }}">Publications</a>
+<a href="{{ '/' | relative_url }}#education">Education</a>
+<a href="{{ '/cv/' | relative_url }}">CV</a>
+<a href="{{ '/' | relative_url }}#service">Service</a>
+</nav>
+  </div>
+</div>
 
-[![Experimental pipeline for auditing test-time inference]({{ "/assets/img/publication_preview/search.webp" | relative_url }})]({{ "/assets/img/publication_preview/search.webp" | relative_url }})
+<div class="academic-shell">
+  <aside class="academic-sidebar" aria-label="Personal information">
+    <div class="profile-photo-frame"><img class="profile-photo" src="{{ '/assets/img/zhitong-chen.jpg' | relative_url }}" alt="Zhitong Chen" width="144" height="168"></div>
+    <h1>Zhitong Chen</h1>
+    <p class="profile-role">Ph.D. Student in Computer Science</p>
+    <a class="profile-university" href="https://www.tamu.edu/">Texas A&amp;M University</a>
+    <p class="profile-focus">Studying how language models reason, plan, and use tools reliably.</p>
+    <div class="profile-topics" aria-label="Research interests">
+      <span>LLM Agents</span><span>Planning</span><span>Evaluation</span>
+    </div>
+    <div class="profile-contact">
+      <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>College Station, TX, USA</span></p>
+      <a href="mailto:zhitong.chen18@tamu.edu"><i class="fa-regular fa-envelope" aria-hidden="true"></i><span>zhitong.chen18@tamu.edu</span></a>
+      <a href="https://scholar.google.com/citations?user=B3YFm44AAAAJ"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span></a>
+      <a href="https://github.com/TamuChen18"><i class="fa-brands fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+      <a href="{{ '/cv/' | relative_url }}"><i class="fa-regular fa-file-lines" aria-hidden="true"></i><span>Curriculum Vitae</span></a>
+    </div>
+    <a class="profile-contact-button" href="mailto:zhitong.chen18@tamu.edu">Get in touch <span aria-hidden="true">↗</span></a>
+  </aside>
 
-When search finds a correct workflow, does the final answer actually use it? This work separates candidate discovery, structural validation, and selection to diagnose inference pipelines. Controlled comparisons reveal how candidate generation and majority voting affect the final result.
-
-[Paper](https://arxiv.org/abs/2611.00579) · [Code](https://github.com/TamuChen18/Found-but-Not-Chosen)
-
-## DisasterBench
-
-**Benchmarking LLM Planning under Typed Tool Interface Constraints**<br>
-Findings of EMNLP 2026
-
-[![DisasterBench construction and evaluation pipeline]({{ "/assets/img/publication_preview/disasterbench.webp" | relative_url }})]({{ "/assets/img/publication_preview/disasterbench.webp" | relative_url }})
-
-DisasterBench evaluates whether language models can compose disaster-response tools into interface-valid workflows. It examines tool choice, parameter binding, and dependency propagation, with First-Point-of-Failure analysis to locate the earliest error in a plan.
-
-[Paper](https://aclanthology.org/2026.findings-emnlp.1665/) · [Code & data](https://github.com/TamuChen18/DisasterBench_Open)
-
-## DisastQA
-
-**A Comprehensive Benchmark for Evaluating Question Answering in Disaster Management**<br>
-Findings of ACL 2026
-
-[![Human–LLM collaborative pipeline for DisastQA]({{ "/assets/img/publication_preview/disastqa.webp" | relative_url }})]({{ "/assets/img/publication_preview/disastqa.webp" | relative_url }})
-
-DisastQA contains 3,000 expert-annotated questions across eight disaster types. It evaluates multiple-choice and open-ended question answering under different evidence conditions, with keypoint-based assessment of factual completeness.
-
-[Paper](https://aclanthology.org/2026.findings-acl.756/) · [Code & data](https://github.com/TamuChen18/DisastQA_open)
-
-## FloodSQL-Bench
-
-**A Retrieval-Augmented Benchmark for Geospatially-Grounded Text-to-SQL**<br>
-AAAI Symposium Series · 2026
-
-[![FloodSQL-Bench annotation framework]({{ '/assets/img/publication_preview/floodsql.webp' | relative_url }})]({{ '/assets/img/publication_preview/floodsql.webp' | relative_url }})
-
-FloodSQL-Bench evaluates text-to-SQL generation across heterogeneous flood-management datasets. Key-based, spatial, and hybrid joins connect social, infrastructure, and hazard data, testing database reasoning grounded in geographic context.
-
-[Paper](https://arxiv.org/abs/2512.12084) · [PDF](https://arxiv.org/pdf/2512.12084)
-
-## DisastRAG
-
-**A Multi-Source Disaster Information Integration and Access System Based on Retrieval-Augmented Large Language Models**<br>
-Preprint · 2026
-
-[![DisastRAG system architecture]({{ '/assets/img/publication_preview/disastrag.webp' | relative_url }})]({{ '/assets/img/publication_preview/disastrag.webp' | relative_url }})
-
-DisastRAG integrates document retrieval, structured disaster records, and external web fallback. Query understanding and strategy routing connect different evidence pathways to response generation and contextual memory.
-
-[Paper](https://arxiv.org/abs/2605.05210) · [PDF](https://arxiv.org/pdf/2605.05210)
-
-_Figures reproduced from the corresponding papers._
+  <article class="academic-content">
+<section class="academic-section page-intro"><p class="section-eyebrow">RESEARCH</p><h2>Reliable reasoning.<br>Structured action.</h2><p>I study how language models reason, plan with tools, and use evidence reliably — from inference-time search to benchmarks and information access.</p><div class="research-topics"><a href="#planning">Reasoning &amp; Planning</a><a href="#evaluation">Evaluation</a><a href="#retrieval">Information Access</a></div></section><h2 class="research-group-title" id="planning">Reasoning &amp; Planning</h2><section class="research-project"><a class="research-figure" href="{{ '/assets/img/publication_preview/search.webp' | relative_url }}"><img src="{{ '/assets/img/publication_preview/search.webp' | relative_url }}" alt="From Apparent Search Gains to Selection Failures framework" loading="lazy"></a><div><p class="project-kicker">TEST-TIME INFERENCE</p><h3><a href="https://arxiv.org/abs/2611.00579">From Apparent Search Gains to Selection Failures</a></h3><p class="project-title">Auditing Test-Time Inference in Structured Workflow Planning</p><p class="project-venue">Preprint · Under review · 2026</p><p class="project-description">When search finds a correct workflow, does the final answer use it? This work separates candidate discovery, structural validation, and selection to diagnose inference pipelines under controlled comparisons.</p><div class="project-links"><a href="https://arxiv.org/abs/2611.00579">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/TamuChen18/Found-but-Not-Chosen">Code &amp; resources <span aria-hidden="true">↗</span></a></div></div></section><section class="research-project"><a class="research-figure" href="{{ '/assets/img/publication_preview/disasterbench.webp' | relative_url }}"><img src="{{ '/assets/img/publication_preview/disasterbench.webp' | relative_url }}" alt="DisasterBench framework" loading="lazy"></a><div><p class="project-kicker">TOOL-USE PLANNING</p><h3><a href="https://aclanthology.org/2026.findings-emnlp.1665/">DisasterBench</a></h3><p class="project-title">Benchmarking LLM Planning under Typed Tool Interface Constraints</p><p class="project-venue">Findings of EMNLP 2026</p><p class="project-description">A benchmark of 233 tasks and 26 tools for interface-valid workflow planning. First-Point-of-Failure analysis localizes errors in tool choice, parameter binding, and dependency propagation.</p><div class="project-links"><a href="https://aclanthology.org/2026.findings-emnlp.1665/">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/TamuChen18/DisasterBench_Open">Code &amp; resources <span aria-hidden="true">↗</span></a></div></div></section><h2 class="research-group-title" id="evaluation">Evidence-Grounded Evaluation</h2><section class="research-project"><a class="research-figure" href="{{ '/assets/img/publication_preview/disastqa.webp' | relative_url }}"><img src="{{ '/assets/img/publication_preview/disastqa.webp' | relative_url }}" alt="DisastQA framework" loading="lazy"></a><div><p class="project-kicker">EVIDENCE-GROUNDED EVALUATION</p><h3><a href="https://aclanthology.org/2026.findings-acl.756/">DisastQA</a></h3><p class="project-title">A Comprehensive Benchmark for Evaluating Question Answering in Disaster Management</p><p class="project-venue">Findings of ACL 2026</p><p class="project-description">A benchmark of 3,000 expert-annotated questions across eight disaster types. Multiple-choice and open-ended tasks test factual completeness under different evidence conditions.</p><div class="project-links"><a href="https://aclanthology.org/2026.findings-acl.756/">Paper <span aria-hidden="true">↗</span></a><a href="https://github.com/TamuChen18/DisastQA_open">Code &amp; resources <span aria-hidden="true">↗</span></a></div></div></section><h2 class="research-group-title" id="retrieval">Retrieval &amp; Information Access</h2><section class="research-project"><a class="research-figure" href="{{ '/assets/img/publication_preview/floodsql.webp' | relative_url }}"><img src="{{ '/assets/img/publication_preview/floodsql.webp' | relative_url }}" alt="FloodSQL-Bench framework" loading="lazy"></a><div><p class="project-kicker">GEOSPATIAL DATABASE REASONING</p><h3><a href="https://arxiv.org/abs/2512.12084">FloodSQL-Bench</a></h3><p class="project-title">A Retrieval-Augmented Benchmark for Geospatially-Grounded Text-to-SQL</p><p class="project-venue">AAAI Symposium Series · 2026</p><p class="project-description">Text-to-SQL evaluation across heterogeneous flood-management datasets. Key-based, spatial, and hybrid joins connect social, infrastructure, and hazard data in geographically grounded queries.</p><div class="project-links"><a href="https://arxiv.org/abs/2512.12084">Paper <span aria-hidden="true">↗</span></a></div></div></section><section class="research-project"><a class="research-figure" href="{{ '/assets/img/publication_preview/disastrag.webp' | relative_url }}"><img src="{{ '/assets/img/publication_preview/disastrag.webp' | relative_url }}" alt="DisastRAG framework" loading="lazy"></a><div><p class="project-kicker">RETRIEVAL-AUGMENTED GENERATION</p><h3><a href="https://arxiv.org/abs/2605.05210">DisastRAG</a></h3><p class="project-title">A Multi-Source Disaster Information Integration and Access System Based on Retrieval-Augmented Large Language Models</p><p class="project-venue">Preprint · 2026</p><p class="project-description">A multi-source disaster information system connecting document retrieval, structured records, and external web fallback. Query understanding and strategy routing select evidence pathways for response generation.</p><div class="project-links"><a href="https://arxiv.org/abs/2605.05210">Paper <span aria-hidden="true">↗</span></a></div></div></section><p class="figure-credit">Figures are reproduced from the corresponding papers.</p>
+</article>
+</div>

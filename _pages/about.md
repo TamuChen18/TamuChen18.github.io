@@ -2,28 +2,30 @@
 layout: default
 title: about
 permalink: /
-description: Zhitong Chen — Computer Science Ph.D. student at Texas A&M University. LLM agents, tool-use planning, and evaluation.
+description: Zhitong Chen — LLM agents, planning, and evaluation.
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=3">
-<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=2">
+<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=4">
+<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=3">
 
 <div class="academic-topbar">
   <div class="academic-topbar-inner">
     <a class="academic-wordmark" href="{{ '/' | relative_url }}">Zhitong Chen<span class="wordmark-dot">.</span></a>
     <nav class="academic-navigation" aria-label="Main navigation">
-      <a href="#about-me">About Me</a>
-      <a href="#news">News</a>
-      <a href="#publications">Publications</a>
-      <a href="#education">Education</a>
-      <a href="#service">Service</a>
-    </nav>
+<a href="{{ '/' | relative_url }}#about-me">About Me</a>
+<a href="{{ '/' | relative_url }}#news">News</a>
+<a href="{{ '/research/' | relative_url }}">Research</a>
+<a href="{{ '/publications/' | relative_url }}">Publications</a>
+<a href="{{ '/' | relative_url }}#education">Education</a>
+<a href="{{ '/cv/' | relative_url }}">CV</a>
+<a href="{{ '/' | relative_url }}#service">Service</a>
+</nav>
   </div>
 </div>
 
 <div class="academic-shell">
   <aside class="academic-sidebar" aria-label="Personal information">
-    <div class="profile-monogram" aria-hidden="true">ZC</div>
+    <div class="profile-photo-frame"><img class="profile-photo" src="{{ '/assets/img/zhitong-chen.jpg' | relative_url }}" alt="Zhitong Chen" width="144" height="168"></div>
     <h1>Zhitong Chen</h1>
     <p class="profile-role">Ph.D. Student in Computer Science</p>
     <a class="profile-university" href="https://www.tamu.edu/">Texas A&amp;M University</a>
@@ -42,10 +44,11 @@ description: Zhitong Chen — Computer Science Ph.D. student at Texas A&M Univer
   </aside>
 
   <article class="academic-content">
+
     <section class="academic-section about-section" id="about-me" aria-labelledby="about-heading">
       <p class="section-eyebrow">REASONING · PLANNING · RELIABILITY</p>
       <h2 id="about-heading">About Me</h2>
-      <p>I am a Ph.D. student in <strong>Computer Science at Texas A&amp;M University</strong>, advised by <a href="https://people.engr.tamu.edu/amostafavi/index.html">Prof. Ali Mostafavi</a>. I also collaborate with <a href="https://people.engr.tamu.edu/caverlee/">Prof. James Caverlee</a>.</p>
+      <p>I am a Ph.D. student in <strong>Computer Science at Texas A&amp;M University</strong>, advised by <a href="https://urbanresilience.ai/research">Prof. Ali Mostafavi</a>. I also collaborate with <a href="https://people.engr.tamu.edu/caverlee/">Prof. James Caverlee</a>.</p>
       <p>My research focuses on <strong>LLM agents, tool-use planning, and evaluation</strong>. I study how language models compose tools into valid workflows, reason with imperfect evidence, and select reliable answers at inference time. My broader interests include agent learning, post-training, and reinforcement learning.</p>
       <p>My recent work includes <a href="https://arxiv.org/abs/2611.00579">auditing test-time inference and candidate selection</a>, <a href="https://aclanthology.org/2026.findings-emnlp.1665/">DisasterBench</a> for interface-constrained tool planning, and <a href="https://aclanthology.org/2026.findings-acl.756/">DisastQA</a> for evidence-grounded question answering.</p>
       <div class="opportunity-note"><span class="opportunity-marker" aria-hidden="true"></span><p><strong>Open to Summer 2027 research internships.</strong><br>I am interested in opportunities in LLM agents, planning, and evaluation. <a href="mailto:zhitong.chen18@tamu.edu">Let’s connect.</a></p></div>
@@ -73,7 +76,7 @@ description: Zhitong Chen — Computer Science Ph.D. student at Texas A&M Univer
       <h2 id="education-heading">Education</h2>
       <div class="education-entry"><div class="education-years">2026 — Present</div><div><h3>Texas A&amp;M University</h3><p>Ph.D. in Computer Science</p><p class="education-detail">Advisor: Prof. Ali Mostafavi · College Station, TX</p></div></div>
       <div class="education-entry"><div class="education-years">2023 — 2025</div><div><h3>Texas A&amp;M University</h3><p>M.S. in Computer Science</p><p class="education-detail">College Station, TX</p></div></div>
-      <div class="education-entry"><div class="education-years">2018 — 2022</div><div><h3>University of Liverpool &amp;<br>Xi’an Jiaotong-Liverpool University</h3><p>B.Sc. in Information and Computing Science (Computer Science)</p><p class="education-detail">Liverpool, UK / Suzhou, China</p></div></div>
+      <div class="education-entry"><div class="education-years">2018 — 2022</div><div><h3>University of Liverpool</h3><p>B.Sc. in Information and Computing Science (Computer Science)</p><p class="education-detail">UK</p></div></div>
     </section>
 
     <section class="academic-section service-section" id="service" aria-labelledby="service-heading">
@@ -82,5 +85,5 @@ description: Zhitong Chen — Computer Science Ph.D. student at Texas A&M Univer
       <p><strong>Poster Presenter</strong> · ACL 2026, San Diego, CA</p>
     </section>
 
-  </article>
+</article>
 </div>

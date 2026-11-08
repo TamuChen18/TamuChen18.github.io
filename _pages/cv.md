@@ -1,40 +1,52 @@
 ---
-layout: page
-permalink: /cv/
+layout: default
 title: CV
-nav: true
-nav_order: 3
-description: Education, research, publications, and academic service.
+permalink: /cv/
+description: Curriculum vitae of Zhitong Chen.
 ---
 
-## Education
+<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=4">
+<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=3">
 
-**Texas A&M University**, College Station, TX<br>
-Ph.D. in Computer Science · January 2026–present<br>
-Advisor: [Prof. Ali Mostafavi](https://people.engr.tamu.edu/amostafavi/index.html)
+<div class="academic-topbar">
+  <div class="academic-topbar-inner">
+    <a class="academic-wordmark" href="{{ '/' | relative_url }}">Zhitong Chen<span class="wordmark-dot">.</span></a>
+    <nav class="academic-navigation" aria-label="Main navigation">
+<a href="{{ '/' | relative_url }}#about-me">About Me</a>
+<a href="{{ '/' | relative_url }}#news">News</a>
+<a href="{{ '/research/' | relative_url }}">Research</a>
+<a href="{{ '/publications/' | relative_url }}">Publications</a>
+<a href="{{ '/' | relative_url }}#education">Education</a>
+<a href="{{ '/cv/' | relative_url }}">CV</a>
+<a href="{{ '/' | relative_url }}#service">Service</a>
+</nav>
+  </div>
+</div>
 
-**Texas A&M University**, College Station, TX<br>
-M.S. in Computer Science · August 2023–December 2025
+<div class="academic-shell">
+  <aside class="academic-sidebar" aria-label="Personal information">
+    <div class="profile-photo-frame"><img class="profile-photo" src="{{ '/assets/img/zhitong-chen.jpg' | relative_url }}" alt="Zhitong Chen" width="144" height="168"></div>
+    <h1>Zhitong Chen</h1>
+    <p class="profile-role">Ph.D. Student in Computer Science</p>
+    <a class="profile-university" href="https://www.tamu.edu/">Texas A&amp;M University</a>
+    <p class="profile-focus">Studying how language models reason, plan, and use tools reliably.</p>
+    <div class="profile-topics" aria-label="Research interests">
+      <span>LLM Agents</span><span>Planning</span><span>Evaluation</span>
+    </div>
+    <div class="profile-contact">
+      <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>College Station, TX, USA</span></p>
+      <a href="mailto:zhitong.chen18@tamu.edu"><i class="fa-regular fa-envelope" aria-hidden="true"></i><span>zhitong.chen18@tamu.edu</span></a>
+      <a href="https://scholar.google.com/citations?user=B3YFm44AAAAJ"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span></a>
+      <a href="https://github.com/TamuChen18"><i class="fa-brands fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+      <a href="{{ '/cv/' | relative_url }}"><i class="fa-regular fa-file-lines" aria-hidden="true"></i><span>Curriculum Vitae</span></a>
+    </div>
+    <a class="profile-contact-button" href="mailto:zhitong.chen18@tamu.edu">Get in touch <span aria-hidden="true">↗</span></a>
+  </aside>
 
-**University of Liverpool & Xi’an Jiaotong-Liverpool University**, Liverpool, UK / Suzhou, China<br>
-B.Sc. in Information and Computing Science (Computer Science) · September 2018–June 2022
+  <article class="academic-content">
 
-## Research Interests
+<section class="academic-section page-intro"><p class="section-eyebrow">BACKGROUND &amp; EXPERIENCE</p><h2>Curriculum Vitae</h2><p>Education, research experience, publications, and academic service.</p><div class="cv-actions"><a class="primary-link" href="{{ '/assets/pdf/Zhitong_Chen_CV.pdf' | relative_url }}" download>Download CV <span>↓</span></a><a href="{{ '/assets/pdf/Zhitong_Chen_CV.pdf' | relative_url }}" target="_blank" rel="noopener">Open PDF <span aria-hidden="true">↗</span></a></div></section>
+<div class="cv-document"><object data="{{ '/assets/pdf/Zhitong_Chen_CV.pdf' | relative_url }}#view=FitH" type="application/pdf" aria-label="Zhitong Chen curriculum vitae"><p><a href="{{ '/assets/pdf/Zhitong_Chen_CV.pdf' | relative_url }}">Open or download the CV PDF.</a></p></object></div>
 
-LLM agents; tool-use and workflow planning; test-time inference; search and selection; model evaluation; agent learning and post-training.
-
-## Publications
-
-My work includes first-author papers in **Findings of ACL 2026** and **Findings of EMNLP 2026**, a paper in the **AAAI Symposium Series 2026**, and preprints on test-time inference and retrieval-augmented disaster information access.
-
-[View publications and accompanying code]({{ '/publications/' | relative_url }}).
-
-## Academic Service
-
-**Reviewer**, NeurIPS 2026 · Evaluations and Datasets Track (4 papers)
-
-**Poster presenter**, ACL 2026 · San Diego, CA
-
-## Contact
-
-[zhitong.chen18@tamu.edu](mailto:zhitong.chen18@tamu.edu) · [Google Scholar](https://scholar.google.com/citations?user=B3YFm44AAAAJ) · [GitHub](https://github.com/TamuChen18)
+</article>
+</div>
