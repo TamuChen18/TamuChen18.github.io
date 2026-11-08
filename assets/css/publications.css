@@ -87,3 +87,13 @@
   color: #fff !important;
   text-decoration: none;
 }
+
+.publications .author em {
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  border: 0;
+}
+.publications .author a {
+  font-weight: 500;
+}
