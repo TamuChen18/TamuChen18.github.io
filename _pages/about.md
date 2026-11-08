@@ -6,11 +6,11 @@ description: Zhitong Chen — LLM agents, planning, and evaluation.
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=5">
-<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=7">
+<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=8">
 
 <div class="academic-topbar">
   <div class="academic-topbar-inner">
-    <a class="academic-wordmark" href="{{ '/' | relative_url }}">Zhitong Chen<span class="wordmark-dot">.</span></a>
+    <a class="academic-wordmark" href="{{ '/' | relative_url }}">Zhitong Chen</a>
     <nav class="academic-navigation" aria-label="Homepage sections">
       <a href="{{ '/' | relative_url }}#about-me">About Me</a>
       <a href="{{ '/' | relative_url }}#news">News</a>
@@ -23,7 +23,7 @@ description: Zhitong Chen — LLM agents, planning, and evaluation.
 
 <div class="academic-shell">
   <aside class="academic-sidebar" aria-label="Personal information">
-    <div class="profile-photo-frame"><img class="profile-photo" src="{{ '/assets/img/zhitong-chen.jpg' | relative_url }}" alt="Zhitong Chen" width="144" height="168"></div>
+    <div class="profile-photo-frame"><img class="profile-photo" src="{{ '/assets/img/zhitong-chen.jpg' | relative_url }}" alt="Zhitong Chen" width="144" height="144"></div>
     <h1>Zhitong Chen</h1>
     <p class="profile-role">Ph.D. Student in Computer Science</p>
     <p class="profile-university">Texas A&amp;M University</p>
@@ -56,7 +56,7 @@ description: Zhitong Chen — LLM agents, planning, and evaluation.
       <p>I am a Ph.D. student in <strong>Computer Science at Texas A&amp;M University</strong>, advised by <a href="https://urbanresilience.ai/research">Prof. Ali Mostafavi</a>. I also collaborate with <a href="https://people.engr.tamu.edu/caverlee/">Prof. James Caverlee</a>.</p>
       <p>My research focuses on <strong>LLM agents, tool-use planning, and evaluation</strong>. I study how language models compose tools into valid workflows, reason with imperfect evidence, and select reliable answers at inference time. My broader interests include agent learning, post-training, and reinforcement learning.</p>
       <p>My recent work includes <a href="https://arxiv.org/abs/2611.00579">auditing test-time inference and candidate selection</a>, <a href="https://aclanthology.org/2026.findings-emnlp.1665/">DisasterBench</a> for interface-constrained tool planning, and <a href="https://aclanthology.org/2026.findings-acl.756/">DisastQA</a> for evidence-grounded question answering.</p>
-      <div class="opportunity-note"><span class="opportunity-marker" aria-hidden="true"></span><p><strong>Open to Summer 2027 research internships.</strong><br>I am interested in opportunities in LLM agents, planning, and evaluation. <a href="mailto:zhitong.chen18@tamu.edu">Let’s connect.</a></p></div>
+      <div class="opportunity-note"><span class="opportunity-marker" aria-hidden="true"></span><p><strong>Open to Summer 2027 research internships.</strong><br>I am interested in opportunities in LLM agents, planning, and evaluation. <a href="mailto:zhitong.chen18@tamu.edu">zhitong.chen18@tamu.edu</a></p></div>
     </section>
 
     <section class="academic-section" id="news" aria-labelledby="news-heading">

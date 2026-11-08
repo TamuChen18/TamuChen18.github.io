@@ -6,11 +6,11 @@ description: Curriculum vitae of Zhitong Chen.
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=5">
-<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=7">
+<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=8">
 
 <div class="academic-topbar">
   <div class="academic-topbar-inner">
-    <a class="academic-wordmark" href="{{ '/' | relative_url }}">Zhitong Chen<span class="wordmark-dot">.</span></a>
+    <a class="academic-wordmark" href="{{ '/' | relative_url }}">Zhitong Chen</a>
     <nav class="academic-navigation" aria-label="Homepage sections">
       <a href="{{ '/' | relative_url }}#about-me">About Me</a>
       <a href="{{ '/' | relative_url }}#news">News</a>
@@ -23,7 +23,7 @@ description: Curriculum vitae of Zhitong Chen.
 
 <div class="academic-shell">
   <aside class="academic-sidebar" aria-label="Personal information">
-    <div class="profile-photo-frame"><img class="profile-photo" src="{{ '/assets/img/zhitong-chen.jpg' | relative_url }}" alt="Zhitong Chen" width="144" height="168"></div>
+    <div class="profile-photo-frame"><img class="profile-photo" src="{{ '/assets/img/zhitong-chen.jpg' | relative_url }}" alt="Zhitong Chen" width="144" height="144"></div>
     <h1>Zhitong Chen</h1>
     <p class="profile-role">Ph.D. Student in Computer Science</p>
     <p class="profile-university">Texas A&amp;M University</p>
