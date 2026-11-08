@@ -87,8 +87,7 @@ description: Zhitong Chen — LLM agents, planning, and evaluation.
 
     <section class="academic-section service-section" id="service" aria-labelledby="service-heading">
       <h2 id="service-heading"><i class="fa-solid fa-handshake heading-icon" aria-hidden="true"></i>Academic Service</h2>
-      <p><i class="fa-solid fa-clipboard-check entry-icon" aria-hidden="true"></i><strong>Reviewer</strong> · NeurIPS 2026, Evaluations and Datasets Track (4 papers)</p>
-      <p><i class="fa-solid fa-person-chalkboard entry-icon" aria-hidden="true"></i><strong>Poster Presenter</strong> · ACL 2026, San Diego, CA</p>
+      <p><i class="fa-solid fa-clipboard-check entry-icon" aria-hidden="true"></i><strong>Reviewer</strong> · NeurIPS 2026</p>
     </section>
 
 </article>
