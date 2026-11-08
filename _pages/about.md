@@ -21,7 +21,7 @@ latest_posts:
   enabled: false
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=3">
 
 I am a Ph.D. student in **Computer Science** at **Texas A&M University**, advised by [Prof. Ali Mostafavi](https://people.engr.tamu.edu/amostafavi/index.html). I also collaborate with [Prof. James Caverlee](https://people.engr.tamu.edu/caverlee/).
 

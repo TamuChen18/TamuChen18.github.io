@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=3">
 
 <span class="publication-note">* Equal contribution. Figures are drawn from the corresponding papers; click to enlarge.</span>
 
