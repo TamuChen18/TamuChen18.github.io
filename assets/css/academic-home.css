@@ -1010,6 +1010,7 @@ body .publications {
   padding: 3px 9px;
 }
 .resource-button,
+.academic-section .resource-button,
 .academic-content .publications .links .resource-button,
 .project-links .resource-button {
   display: inline-flex;
@@ -1173,4 +1174,8 @@ body .publications {
     grid-template-columns: 65px minmax(0, 1fr);
     gap: 12px;
   }
+}
+
+.academic-section .resource-data:hover {
+  color: #332900;
 }
