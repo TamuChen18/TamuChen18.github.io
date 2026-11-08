@@ -6,7 +6,7 @@ description: Research by Zhitong Chen in LLM agents, planning, and evaluation.
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=5">
-<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=8">
+<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=9">
 
 <div class="academic-topbar">
   <div class="academic-topbar-inner">

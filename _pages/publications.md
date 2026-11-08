@@ -7,7 +7,7 @@ description: Publications and manuscripts by Zhitong Chen.
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=5">
-<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=8">
+<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=9">
 
 <div class="academic-topbar">
   <div class="academic-topbar-inner">
@@ -53,8 +53,18 @@ description: Publications and manuscripts by Zhitong Chen.
 
 <section class="academic-section page-intro"><p class="section-eyebrow">PAPERS &amp; OPEN RESEARCH</p><h2>Publications</h2><p>Research on LLM agents, structured tool planning, and evidence-grounded evaluation.</p></section>
 <section class="academic-section"><p class="publication-note">* Equal contribution. Click a figure to enlarge.</p>
-{% include bib_search.liquid %}
-<div class="publications">{% bibliography %}</div></section>
+<form id="publication-search" class="publication-search" role="search" aria-label="Search publications">
+  <label for="publication-query">Search publications</label>
+  <div class="publication-search-controls">
+    <input id="publication-query" type="search" placeholder="Title, author, venue, or keyword" autocomplete="off" spellcheck="false" aria-controls="publication-list">
+    <button type="submit"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>Search</button>
+    <button type="button" id="publication-search-clear" class="search-clear">Clear</button>
+  </div>
+  <p id="publication-search-status" class="search-status" role="status" aria-live="polite"></p>
+</form>
+<div class="publications" id="publication-list">{% bibliography %}</div></section>
 
+<p id="publication-search-empty" class="search-empty" hidden>No publications match your search. Try another keyword or clear the search.</p>
+<script src="{{ '/assets/js/publication-search.js' | relative_url }}" defer></script>
 </article>
 </div>

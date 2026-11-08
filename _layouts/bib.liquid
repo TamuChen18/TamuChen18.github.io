@@ -198,14 +198,7 @@
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
-    <div class="periodical">
-      {% if entry.abbr and entry.abbr != 'Preprint' -%}
-        {{- entry.abbr -}}
-        {%- if entry.abbr == 'AAAI Symposium' %} · {{ entry.year }}{% endif -%}
-      {%- else -%}
-        {{- periodical | strip -}}
-      {%- endif %}
-    </div>
+    <div class="periodical">{{ periodical | strip }}</div>
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
