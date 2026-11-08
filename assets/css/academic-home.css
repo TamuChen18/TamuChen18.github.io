@@ -1529,3 +1529,50 @@ body {
     grid-column: 1 / -1;
   }
 }
+
+/* Secondary publications use a citation list, keeping the homepage focused. */
+.other-publications ol.bibliography {
+  list-style: disc;
+  padding-left: 20px;
+}
+.academic-content .other-publications .row {
+  display: block;
+}
+.academic-content .other-publications .abbr,
+.academic-content .other-publications .paper-overview,
+.academic-content .other-publications .links .resource-bib,
+.academic-content .other-publications .links .resource-doi {
+  display: none !important;
+}
+.academic-content .other-publications ol.bibliography > li {
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  border: 0;
+  padding-left: 3px;
+}
+.academic-content .other-publications .title {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.academic-content .other-publications .author {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.academic-content .other-publications .periodical {
+  display: inline;
+  font-size: 13px;
+}
+.academic-content .other-publications .links {
+  display: inline-flex;
+  margin: 0 0 0 7px;
+  vertical-align: middle;
+}
+.academic-content .other-publications .links .resource-button {
+  font-size: 12px;
+  padding: 2px 8px;
+}
+@media (min-width: 601px) {
+  .academic-navigation {
+    gap: 19px;
+  }
+}
