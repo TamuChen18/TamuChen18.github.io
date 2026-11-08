@@ -65,3 +65,20 @@
     max-height: 220px;
   }
 }
+
+/* Keep disclosures collapsed until the theme's existing buttons open them. */
+.publications .hidden:not(.open) {
+  display: none !important;
+}
+.publications .hidden.open {
+  display: block;
+  margin-top: 1rem;
+}
+.publications ol.bibliography {
+  list-style: none;
+  padding-left: 0;
+}
+.publications .bibtex pre {
+  overflow-x: auto;
+  max-width: 100%;
+}
