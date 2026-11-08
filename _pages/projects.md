@@ -1,65 +1,35 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+permalink: /research/
+title: research
 nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+nav_order: 1
+description: LLM agents, structured planning, and reliable evaluation.
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+## Test-Time Inference for Structured Planning
 
-{% else %}
+**From Apparent Search Gains to Selection Failures: Auditing Test-Time Inference in Structured Workflow Planning**<br>
+Preprint · Under review · 2026
 
-<!-- Display projects without categories -->
+When search finds a correct workflow, does the final answer actually use it? This work separates candidate discovery, structural validation, and selection to diagnose inference pipelines. Controlled comparisons reveal how candidate generation and majority voting affect the final result.
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+[Paper](https://arxiv.org/abs/2611.00579) · [Code](https://github.com/TamuChen18/Found-but-Not-Chosen)
 
-  <!-- Generate cards for each project -->
+## DisasterBench
 
-{% if page.horizontal %}
+**Benchmarking LLM Planning under Typed Tool Interface Constraints**<br>
+Findings of EMNLP 2026
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+DisasterBench evaluates whether language models can compose disaster-response tools into interface-valid workflows. It examines tool choice, parameter binding, and dependency propagation, with First-Point-of-Failure analysis to locate the earliest error in a plan.
+
+[Paper](https://aclanthology.org/2026.findings-emnlp.1665/) · [Code & data](https://github.com/TamuChen18/DisasterBench_Open)
+
+## DisastQA
+
+**A Comprehensive Benchmark for Evaluating Question Answering in Disaster Management**<br>
+Findings of ACL 2026
+
+DisastQA contains 3,000 expert-annotated questions across eight disaster types. It evaluates multiple-choice and open-ended question answering under different evidence conditions, with keypoint-based assessment of factual completeness.
+
+[Paper](https://aclanthology.org/2026.findings-acl.756/) · [Code & data](https://github.com/TamuChen18/DisastQA)

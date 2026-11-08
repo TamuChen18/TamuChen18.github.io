@@ -1,9 +1,9 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+"EMNLP 2026 Findings":
+  url: https://aclanthology.org/2026.findings-emnlp.1665/
+  color: "#500000"
+"ACL 2026 Findings":
+  url: https://aclanthology.org/2026.findings-acl.756/
+  color: "#500000"
+"Preprint":
+  url: https://arxiv.org/abs/2611.00579
+  color: "#555555"
