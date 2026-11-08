@@ -11,7 +11,7 @@ profile:
   image_circular: false
   more_info:
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
@@ -20,6 +20,8 @@ announcements:
 latest_posts:
   enabled: false
 ---
+
+<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
 
 I am a Ph.D. student in **Computer Science** at **Texas A&M University**, advised by [Prof. Ali Mostafavi](https://people.engr.tamu.edu/amostafavi/index.html). I also collaborate with [Prof. James Caverlee](https://people.engr.tamu.edu/caverlee/).
 
@@ -35,8 +37,23 @@ I received my M.S. in Computer Science from Texas A&M University in December 202
 - **Tool-use planning.** Evaluating tool selection, parameter binding, and dependency consistency in structured workflows with DisasterBench.
 - **Evidence-grounded evaluation.** Studying question answering with clean, incomplete, and noisy evidence through DisastQA.
 
+## Publications and Manuscripts
+
+<span class="publication-note">* Equal contribution. Click a figure to enlarge; use Abs for a brief overview.</span>
+
+<div class="publications">
+{% bibliography --query @*[selected=true]* %}
+</div>
+
 ## Education
 
 **Texas A&M University** · College Station, TX<br>
 Ph.D. in Computer Science · January 2026–present<br>
-M.S. in Computer Science · December 2025
+M.S. in Computer Science · August 2023–December 2025
+
+**University of Liverpool & Xi’an Jiaotong-Liverpool University** · Liverpool, UK / Suzhou, China<br>
+B.Sc. in Information and Computing Science (Computer Science) · September 2018–June 2022
+
+## Academic Service
+
+Reviewer, **NeurIPS 2026** (4 papers) · Poster presenter, **ACL 2026**

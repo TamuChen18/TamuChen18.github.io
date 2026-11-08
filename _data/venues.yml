@@ -5,5 +5,7 @@
   url: https://aclanthology.org/2026.findings-acl.756/
   color: "#500000"
 "Preprint":
-  url: https://arxiv.org/abs/2611.00579
   color: "#555555"
+"AAAI Symposium":
+  url: https://arxiv.org/abs/2512.12084
+  color: "#500000"

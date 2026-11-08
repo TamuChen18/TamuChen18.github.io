@@ -7,7 +7,9 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
+<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
+
+<span class="publication-note">* Equal contribution. Figures are drawn from the corresponding papers; click to enlarge.</span>
 
 <!-- Bibsearch Feature -->
 
