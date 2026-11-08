@@ -1,0 +1,67 @@
+/* Site-specific presentation, preserving the theme's publication components. */
+.publication-note {
+  display: block;
+  margin: 0 0 1.5rem;
+  font-size: 0.88rem;
+  opacity: 0.75;
+}
+.publications ol.bibliography > li {
+  margin-bottom: 2.6rem;
+}
+.publications .row {
+  display: grid;
+  grid-template-columns: minmax(0, 240px) minmax(0, 1fr);
+  gap: 1.6rem;
+  margin: 0;
+  align-items: start;
+}
+.publications .row > div {
+  width: auto;
+  max-width: none;
+  padding: 0;
+  flex: none;
+}
+.publications .abbr abbr {
+  display: inline-block;
+  margin-bottom: 0.7rem;
+  font-size: 0.74rem;
+  line-height: 1.7;
+}
+.publications .abbr figure {
+  margin: 0;
+}
+.publications .preview {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain;
+  background: white;
+  border: 1px solid rgba(128, 128, 128, 0.18);
+  padding: 0.35rem;
+  box-sizing: border-box;
+}
+.publications .title {
+  font-weight: 600;
+  line-height: 1.45;
+  margin-bottom: 0.35rem;
+}
+.publications .author {
+  line-height: 1.55;
+  font-size: 0.9rem;
+  margin-bottom: 0.35rem;
+}
+.publications .links {
+  margin-top: 0.55rem;
+}
+@media (max-width: 640px) {
+  .publications .row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.9rem;
+  }
+  .publications .abbr {
+    max-width: 340px !important;
+  }
+  .publications .preview {
+    max-height: 220px;
+  }
+}
