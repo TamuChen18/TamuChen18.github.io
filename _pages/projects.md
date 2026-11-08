@@ -14,7 +14,7 @@ description: Research by Zhitong Chen in LLM agents, planning, and evaluation.
     <nav class="academic-navigation" aria-label="Homepage sections">
       <a href="{{ '/' | relative_url }}#about-me">About Me</a>
       <a href="{{ '/' | relative_url }}#news">News</a>
-      <a href="{{ '/' | relative_url }}#publications">Selected</a>
+      <a href="{{ '/' | relative_url }}#publications">Publications</a>
       <a href="{{ '/' | relative_url }}#other-publications">Other Publications</a>
       <a href="{{ '/' | relative_url }}#education">Education</a>
       <a href="{{ '/' | relative_url }}#service">Service</a>
