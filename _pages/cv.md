@@ -50,8 +50,8 @@ description: Curriculum vitae of Zhitong Chen.
 
   <article class="academic-content">
 
-<section class="academic-section page-intro"><p class="section-eyebrow">BACKGROUND &amp; EXPERIENCE</p><h2>Curriculum Vitae</h2><p>Education, research experience, publications, and academic service.</p><div class="cv-actions"><a class="cv-open-link" href="{{ '/assets/pdf/Zhitong_Chen_CV.pdf' | relative_url }}?v=20261108" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> View PDF in a new tab <span aria-hidden="true">↗</span></a></div></section>
-<div class="cv-document"><object data="{{ '/assets/pdf/Zhitong_Chen_CV.pdf' | relative_url }}?v=20261108#view=FitH" type="application/pdf" aria-label="Zhitong Chen curriculum vitae"><p><a href="{{ '/assets/pdf/Zhitong_Chen_CV.pdf' | relative_url }}?v=20261108">View the CV PDF in a new tab.</a></p></object></div>
+<section class="academic-section page-intro"><p class="section-eyebrow">BACKGROUND &amp; EXPERIENCE</p><h2>Curriculum Vitae</h2><p>Education, research experience, publications, and academic service.</p><div class="cv-actions"><a class="cv-open-link" href="{{ '/assets/pdf/Zhitong_Chen_CV.pdf' | relative_url }}?v=58a9d69d4c02" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> View PDF in a new tab <span aria-hidden="true">↗</span></a></div></section>
+<div class="cv-document"><object data="{{ '/assets/pdf/Zhitong_Chen_CV.pdf' | relative_url }}?v=58a9d69d4c02#view=FitH" type="application/pdf" aria-label="Zhitong Chen curriculum vitae"><p><a href="{{ '/assets/pdf/Zhitong_Chen_CV.pdf' | relative_url }}?v=58a9d69d4c02">View the CV PDF in a new tab.</a></p></object></div>
 
 </article>
 </div>
