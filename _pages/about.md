@@ -6,7 +6,7 @@ description: Zhitong Chen — LLM agents, planning, and evaluation.
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=5">
-<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=5">
+<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=6">
 
 <div class="academic-topbar">
   <div class="academic-topbar-inner">
@@ -62,10 +62,12 @@ description: Zhitong Chen — LLM agents, planning, and evaluation.
     <section class="academic-section" id="news" aria-labelledby="news-heading">
       <div class="section-title-row"><h2 id="news-heading"><span class="heading-icon" aria-hidden="true">🔥</span>News</h2><span class="section-caption">Recent updates</span></div>
       <ul class="news-list">
-        <li><time datetime="2026-10-31">Oct 2026</time><p><span class="news-icon" aria-hidden="true">🚀</span>New preprint: <a href="https://arxiv.org/abs/2611.00579">From Apparent Search Gains to Selection Failures</a>, on auditing test-time inference in structured workflow planning.</p></li>
-        <li><span class="news-date">2026</span><p><span class="news-icon" aria-hidden="true">🎉</span><strong>DisasterBench</strong> accepted to <strong>Findings of EMNLP 2026</strong>.</p></li>
-        <li><span class="news-date">2026</span><p><span class="news-icon" aria-hidden="true">🎉</span><strong>DisastQA</strong> published in <strong>Findings of ACL 2026</strong> and presented as a poster at ACL.</p></li>
-        <li><time datetime="2025-12">Dec 2025</time><p><span class="news-icon" aria-hidden="true">🎓</span>Completed my <strong>M.S. in Computer Science</strong> at Texas A&amp;M University.</p></li>
+
+<li><time datetime="2026-10">2026.10</time><div><p><span class="news-icon" aria-hidden="true">🚀</span>New preprint: <strong>From Apparent Search Gains to Selection Failures</strong>.</p><div class="news-resources"><a class="resource-button resource-paper" href="https://arxiv.org/abs/2611.00579"><i class="fa-solid fa-book-open" aria-hidden="true"></i><span>Paper</span></a><a class="resource-button resource-arxiv" href="https://arxiv.org/abs/2611.00579"><i class="ai ai-arxiv" aria-hidden="true"></i><span>arXiv</span></a><a class="resource-button resource-code" href="https://github.com/TamuChen18/Found-but-Not-Chosen"><i class="fa-brands fa-github" aria-hidden="true"></i><span>Code</span></a></div></div></li>
+<li><time datetime="2026-10">2026.10</time><div><p><span class="news-icon" aria-hidden="true">🎉🎉</span><strong>DisasterBench</strong> is published in <strong>EMNLP 2026</strong>.</p><div class="news-resources"><a class="resource-button resource-paper" href="https://aclanthology.org/2026.findings-emnlp.1665/"><i class="fa-solid fa-book-open" aria-hidden="true"></i><span>Paper</span></a><a class="resource-button resource-code" href="https://github.com/TamuChen18/DisasterBench_Open"><i class="fa-brands fa-github" aria-hidden="true"></i><span>Code</span></a><a class="resource-button resource-data" href="https://huggingface.co/datasets/tamuzc/DisasterBench"><span aria-hidden="true">🤗</span><span>Dataset</span></a></div></div></li>
+<li><time datetime="2026-07">2026.07</time><div><p><span class="news-icon" aria-hidden="true">🎉🎉</span><strong>DisastQA</strong> is published in <strong>ACL 2026</strong> and presented as a poster.</p><div class="news-resources"><a class="resource-button resource-paper" href="https://aclanthology.org/2026.findings-acl.756/"><i class="fa-solid fa-book-open" aria-hidden="true"></i><span>Paper</span></a><a class="resource-button resource-arxiv" href="https://arxiv.org/abs/2601.03670"><i class="ai ai-arxiv" aria-hidden="true"></i><span>arXiv</span></a><a class="resource-button resource-code" href="https://github.com/TamuChen18/DisastQA_open"><i class="fa-brands fa-github" aria-hidden="true"></i><span>Code</span></a><a class="resource-button resource-data" href="https://huggingface.co/datasets/tamuzc/DisastQA"><span aria-hidden="true">🤗</span><span>Dataset</span></a></div></div></li>
+<li><time datetime="2026-01">2026.01</time><div><p><span class="news-icon" aria-hidden="true">🚀</span><strong>DisastQA</strong> preprint is available on arXiv.</p><div class="news-resources"><a class="resource-button resource-paper" href="https://aclanthology.org/2026.findings-acl.756/"><i class="fa-solid fa-book-open" aria-hidden="true"></i><span>Paper</span></a><a class="resource-button resource-arxiv" href="https://arxiv.org/abs/2601.03670"><i class="ai ai-arxiv" aria-hidden="true"></i><span>arXiv</span></a><a class="resource-button resource-code" href="https://github.com/TamuChen18/DisastQA_open"><i class="fa-brands fa-github" aria-hidden="true"></i><span>Code</span></a><a class="resource-button resource-data" href="https://huggingface.co/datasets/tamuzc/DisastQA"><span aria-hidden="true">🤗</span><span>Dataset</span></a></div></div></li>
+<li><time datetime="2025-12">2025.12</time><div><p><span class="news-icon" aria-hidden="true">🎓</span>Completed my <strong>M.S. in Computer Science</strong> at Texas A&amp;M University.</p></div></li>
       </ul>
     </section>
 
@@ -78,16 +80,16 @@ description: Zhitong Chen — LLM agents, planning, and evaluation.
     </section>
 
     <section class="academic-section" id="education" aria-labelledby="education-heading">
-      <h2 id="education-heading">Education</h2>
-      <div class="education-entry"><div class="education-years">2026 — Present</div><div><h3>Texas A&amp;M University</h3><p>Ph.D. in Computer Science</p><p class="education-detail">Advisor: Prof. Ali Mostafavi · College Station, TX</p></div></div>
-      <div class="education-entry"><div class="education-years">2023 — 2025</div><div><h3>Texas A&amp;M University</h3><p>M.S. in Computer Science</p><p class="education-detail">College Station, TX</p></div></div>
-      <div class="education-entry"><div class="education-years">2018 — 2022</div><div><h3>University of Liverpool</h3><p>B.Sc. in Information and Computing Science (Computer Science)</p><p class="education-detail">UK</p></div></div>
+      <h2 id="education-heading"><i class="fa-solid fa-graduation-cap heading-icon" aria-hidden="true"></i>Education</h2>
+      <div class="education-entry"><div class="education-years"><i class="fa-regular fa-calendar entry-icon" aria-hidden="true"></i>2026 — Present</div><div><h3><i class="fa-solid fa-building-columns entry-icon" aria-hidden="true"></i>Texas A&amp;M University</h3><p><i class="fa-solid fa-graduation-cap entry-icon" aria-hidden="true"></i>Ph.D. in Computer Science</p><p class="education-detail"><i class="fa-solid fa-user-tie entry-icon" aria-hidden="true"></i>Advisor: Prof. Ali Mostafavi · College Station, TX</p></div></div>
+      <div class="education-entry"><div class="education-years"><i class="fa-regular fa-calendar entry-icon" aria-hidden="true"></i>2023 — 2025</div><div><h3><i class="fa-solid fa-building-columns entry-icon" aria-hidden="true"></i>Texas A&amp;M University</h3><p><i class="fa-solid fa-graduation-cap entry-icon" aria-hidden="true"></i>M.S. in Computer Science</p><p class="education-detail"><i class="fa-solid fa-location-dot entry-icon" aria-hidden="true"></i>College Station, TX</p></div></div>
+      <div class="education-entry"><div class="education-years"><i class="fa-regular fa-calendar entry-icon" aria-hidden="true"></i>2018 — 2022</div><div><h3><i class="fa-solid fa-building-columns entry-icon" aria-hidden="true"></i>University of Liverpool</h3><p><i class="fa-solid fa-graduation-cap entry-icon" aria-hidden="true"></i>B.Sc. in Information and Computing Science (Computer Science)</p><p class="education-detail"><i class="fa-solid fa-location-dot entry-icon" aria-hidden="true"></i>UK</p></div></div>
     </section>
 
     <section class="academic-section service-section" id="service" aria-labelledby="service-heading">
-      <h2 id="service-heading">Academic Service</h2>
-      <p><strong>Reviewer</strong> · NeurIPS 2026, Evaluations and Datasets Track (4 papers)</p>
-      <p><strong>Poster Presenter</strong> · ACL 2026, San Diego, CA</p>
+      <h2 id="service-heading"><i class="fa-solid fa-handshake heading-icon" aria-hidden="true"></i>Academic Service</h2>
+      <p><i class="fa-solid fa-clipboard-check entry-icon" aria-hidden="true"></i><strong>Reviewer</strong> · NeurIPS 2026, Evaluations and Datasets Track (4 papers)</p>
+      <p><i class="fa-solid fa-person-chalkboard entry-icon" aria-hidden="true"></i><strong>Poster Presenter</strong> · ACL 2026, San Diego, CA</p>
     </section>
 
 </article>

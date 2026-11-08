@@ -1,0 +1,101 @@
+{
+  "chen2026search":
+    {
+      "slug": "search",
+      "group": "planning",
+      "kicker": "TEST-TIME INFERENCE",
+      "title": "From Apparent Search Gains to Selection Failures",
+      "subtitle": "Auditing Test-Time Inference in Structured Workflow Planning",
+      "venue": "Preprint · Under review · 2026",
+      "paper": "https://arxiv.org/abs/2611.00579",
+      "arxiv": "2611.00579",
+      "code": "https://github.com/TamuChen18/Found-but-Not-Chosen",
+      "summary": "An audit of why discovering a correct workflow does not guarantee selecting it.",
+      "highlights":
+        [
+          "Separates inference into **candidate discovery, structural validation, and final selection**.",
+          "Compares independent sampling and search configurations under **controlled inference budgets**.",
+          "Finds that majority voting can miss correct candidates already present in a pool.",
+          "Examines verifier failures and recommends reporting discovery and selection separately.",
+        ],
+    },
+  "chen2026disasterbench":
+    {
+      "slug": "disasterbench",
+      "group": "planning",
+      "kicker": "TOOL-USE PLANNING",
+      "title": "DisasterBench",
+      "subtitle": "Benchmarking LLM Planning under Typed Tool Interface Constraints",
+      "venue": "EMNLP 2026",
+      "paper": "https://aclanthology.org/2026.findings-emnlp.1665/",
+      "code": "https://github.com/TamuChen18/DisasterBench_Open",
+      "dataset": "https://huggingface.co/datasets/tamuzc/DisasterBench",
+      "summary": "A benchmark for composing disaster-response tools into interface-valid workflows.",
+      "highlights":
+        [
+          "Introduces **233 tasks and 26 tools** for structured workflow planning.",
+          "Tests tool choice, parameter binding, and dependency propagation under **typed interfaces**.",
+          "Proposes **First-Point-of-Failure (FPoF)** to distinguish root errors from cascading failures.",
+          "Analyzes how model capacity and reasoning strategies affect reliable tool coordination.",
+        ],
+    },
+  "chen2026disastqa":
+    {
+      "slug": "disastqa",
+      "group": "evaluation",
+      "kicker": "EVIDENCE-GROUNDED EVALUATION",
+      "title": "DisastQA",
+      "subtitle": "A Comprehensive Benchmark for Evaluating Question Answering in Disaster Management",
+      "venue": "ACL 2026",
+      "paper": "https://aclanthology.org/2026.findings-acl.756/",
+      "arxiv": "2601.03670",
+      "code": "https://github.com/TamuChen18/DisastQA_open",
+      "dataset": "https://huggingface.co/datasets/tamuzc/DisastQA",
+      "summary": "A disaster QA benchmark examining factual completeness under clean and imperfect evidence.",
+      "highlights":
+        [
+          "Provides **3,000 questions**: 2,000 multiple-choice and 1,000 open-ended, across **eight disaster types**.",
+          "Uses a **human–LLM collaboration pipeline** with expert verification and stratified sampling.",
+          "Compares **Base, Golden, and Mix** evidence settings to examine knowledge and evidence use.",
+          "Introduces human-verified **keypoint-based evaluation** for factual completeness in open-ended answers.",
+        ],
+    },
+  "liu2026floodsql":
+    {
+      "slug": "floodsql",
+      "group": "retrieval",
+      "kicker": "GEOSPATIAL DATABASE REASONING",
+      "title": "FloodSQL-Bench",
+      "subtitle": "A Retrieval-Augmented Benchmark for Geospatially-Grounded Text-to-SQL",
+      "venue": "AAAI Symposium · 2026",
+      "paper": "https://arxiv.org/abs/2512.12084",
+      "arxiv": "2512.12084",
+      "summary": "A Text-to-SQL benchmark for geographically grounded flood-management questions.",
+      "highlights":
+        [
+          "Connects heterogeneous **social, infrastructure, and hazard datasets**.",
+          "Covers **key-based, spatial, and hybrid joins** across multiple tables.",
+          "Evaluates language models under shared retrieval-augmented settings and varying difficulty.",
+          "Provides a domain-grounded testbed for multi-table and geospatial database reasoning.",
+        ],
+    },
+  "li2026disastrag":
+    {
+      "slug": "disastrag",
+      "group": "retrieval",
+      "kicker": "RETRIEVAL-AUGMENTED GENERATION",
+      "title": "DisastRAG",
+      "subtitle": "A Multi-Source Disaster Information Integration and Access System Based on Retrieval-Augmented Large Language Models",
+      "venue": "Preprint · 2026",
+      "paper": "https://arxiv.org/abs/2605.05210",
+      "arxiv": "2605.05210",
+      "summary": "A multi-source system for accessing documents, structured disaster records, and external information.",
+      "highlights":
+        [
+          "Combines **document retrieval, relational data access, and web fallback**.",
+          "Uses query understanding and **strategy routing** to select evidence pathways.",
+          "Integrates response generation and contextual memory within a unified information system.",
+          "Evaluates retrieval configurations on multiple-choice and open-ended disaster information tasks.",
+        ],
+    },
+}
