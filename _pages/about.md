@@ -1,34 +1,31 @@
----
-layout: about
-title: about
-permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+layout
+about
+title
+about
+permalink
+/
+subtitle
+Computer Science Ph.D. Student at <a href="https://www.tamu.edu/">Texas A&amp;M University</a>
+selected_papers
+false # Turn on after replacing the sample entries in _bibliography/papers.bib
+social
+true # Configure your real links in _data/socials.yml
+I am a Ph.D. student in Computer Science at Texas A&M University, advised by Prof. Ali Mostafavi. My research focuses on large language model (LLM) agents, particularly tool use, planning, and evaluation. I am also interested in LLM post-training and reinforcement learning for improving agentic decision-making.
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+My work examines how to evaluate the capabilities and limitations of language models in complex, multi-step tasks, and how to develop more reliable agentic systems. I am especially interested in connecting insights from benchmark design and failure analysis to improvements in agent training and inference-time decision-making.
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+Research Interests
+LLM Agents and Tool Use: Tool selection, workflow planning, and compositional generalization.
+Agent Evaluation: Benchmarks, failure analysis, and reliable evaluation of multi-step reasoning and tool use.
+LLM Post-training: Reinforcement learning, policy improvement, and training methods for agentic behavior.
+Selected Research
+DisasterBench — First-author paper, Findings of EMNLP 2026. A benchmark for evaluating tool-use workflows and planning in disaster-related tasks.
+DisastQA — First-author paper, Findings of ACL 2026. A benchmark for evaluating language models on disaster-related question answering.
+From Apparent Search Gains to Selection Failures — Preprint, under review. An analysis of search, candidate selection, and evaluation in LLM reasoning. arXiv
+Publication details and links will be added to the Publications page.
 
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
----
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Education
+Ph.D. in Computer Science, Texas A&M University (2026–present)
+M.S. in Computer Science, Texas A&M University (2025)
+Contact
+I welcome discussions and collaborations on LLM agents, planning, evaluation, and post-training. You can find my code and projects on GitHub.
