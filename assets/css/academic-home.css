@@ -82,9 +82,6 @@ body > .container[role="main"] {
   white-space: nowrap;
   text-decoration: none;
 }
-.wordmark-dot {
-  color: var(--academic-accent);
-}
 .academic-navigation {
   display: flex;
   align-items: center;
@@ -1335,5 +1332,110 @@ body > .container[role="main"],
   }
   .news-resources {
     margin-left: 4px;
+  }
+}
+
+/* A lighter sky-blue palette and explicit contrast for resource labels. */
+:root {
+  --academic-accent: #1675b9;
+}
+body {
+  background-color: #f5fbff;
+  background-image: radial-gradient(ellipse at 94% 0%, #e7f4ff 0, transparent 45%), radial-gradient(ellipse at 0% 48%, #eef8ff 0, transparent 38%);
+}
+.academic-shell {
+  border-color: #e0edf7;
+  box-shadow: 0 10px 40px #4286b408;
+}
+.sidebar-navigation a[aria-current="page"] {
+  background: #80cdf6;
+  color: #103e5b;
+}
+.sidebar-navigation a:hover {
+  background: #e3f4ff;
+  color: #145b8f;
+}
+.sidebar-navigation a[aria-current="page"]:hover {
+  background: #6fc3f1;
+  color: #103e5b;
+}
+.profile-contact-button {
+  background: #1675b9;
+  border-color: #1675b9;
+}
+.profile-contact-button:hover {
+  background: #11649f;
+}
+.profile-photo-frame {
+  width: 144px;
+  height: 144px;
+  border-radius: 50%;
+  border: 4px solid #e3edf6;
+  box-sizing: border-box;
+  background: #f2f7fb;
+  box-shadow: 0 2px 8px #2c6f9e0a;
+}
+.profile-photo {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+.profile-contact .fa-linkedin {
+  color: #0a66c2;
+}
+.profile-contact .fa-github {
+  color: #24292f;
+}
+.profile-contact .fa-graduation-cap {
+  color: #4285f4;
+}
+.profile-contact .fa-envelope {
+  color: #d84c49;
+}
+.profile-contact .fa-location-dot {
+  color: #16918b;
+}
+.sidebar-navigation .fa-house {
+  color: #1787c4;
+}
+.sidebar-navigation .fa-flask {
+  color: #8061b5;
+}
+.sidebar-navigation .fa-book-open {
+  color: #218b82;
+}
+.sidebar-navigation .fa-file-lines {
+  color: #d68130;
+}
+.academic-content .publications .links .resource-paper,
+.academic-content .publications .links .resource-pdf,
+.project-links .resource-paper,
+.news-resources .resource-paper {
+  background: #1478b5;
+  color: #fff !important;
+}
+.academic-content .publications .links .resource-doi {
+  background: #187985;
+  color: #fff !important;
+}
+.academic-content .publications .links .resource-bib {
+  background: #6955a6;
+  color: #fff !important;
+}
+.resource-paper span,
+.resource-paper i,
+.resource-pdf span,
+.resource-pdf i,
+.resource-doi span,
+.resource-doi i,
+.resource-bib span,
+.resource-bib i {
+  color: #fff !important;
+}
+@media (max-width: 800px) {
+  .profile-photo-frame {
+    width: 90px;
+    height: 90px;
+    border-width: 3px;
   }
 }
