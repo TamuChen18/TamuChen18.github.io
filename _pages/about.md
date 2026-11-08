@@ -6,7 +6,7 @@ description: Zhitong Chen — LLM agents, planning, and evaluation.
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=5">
-<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=9">
+<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=10">
 
 <div class="academic-topbar">
   <div class="academic-topbar-inner">
@@ -14,7 +14,8 @@ description: Zhitong Chen — LLM agents, planning, and evaluation.
     <nav class="academic-navigation" aria-label="Homepage sections">
       <a href="{{ '/' | relative_url }}#about-me">About Me</a>
       <a href="{{ '/' | relative_url }}#news">News</a>
-      <a href="{{ '/' | relative_url }}#publications">Publications</a>
+      <a href="{{ '/' | relative_url }}#publications">Selected</a>
+      <a href="{{ '/' | relative_url }}#other-publications">Other Publications</a>
       <a href="{{ '/' | relative_url }}#education">Education</a>
       <a href="{{ '/' | relative_url }}#service">Service</a>
     </nav>
@@ -71,10 +72,17 @@ description: Zhitong Chen — LLM agents, planning, and evaluation.
     </section>
 
     <section class="academic-section" id="publications" aria-labelledby="publications-heading">
-      <div class="section-title-row"><h2 id="publications-heading"><span class="heading-icon" aria-hidden="true">📝</span>Publications &amp; Manuscripts</h2><a class="section-more" href="{{ '/publications/' | relative_url }}">Full list <span aria-hidden="true">↗</span></a></div>
+      <div class="section-title-row"><h2 id="publications-heading"><span class="heading-icon" aria-hidden="true">📝</span>Selected Publications and Projects</h2><a class="section-more" href="{{ '/publications/' | relative_url }}">Full list <span aria-hidden="true">↗</span></a></div>
       <p class="publication-note">* Equal contribution. Figures are from the corresponding papers. Click a figure to enlarge.</p>
       <div class="publications">
         {% bibliography --query @*[selected=true]* %}
+      </div>
+    </section>
+
+    <section class="academic-section" id="other-publications" aria-labelledby="other-publications-heading">
+      <div class="section-title-row"><h2 id="other-publications-heading"><span class="heading-icon" aria-hidden="true">📄</span>Other Publications</h2></div>
+      <div class="publications other-publications">
+        {% bibliography --query @*[selected=false]* %}
       </div>
     </section>
 

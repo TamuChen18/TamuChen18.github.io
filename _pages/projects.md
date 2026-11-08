@@ -6,7 +6,7 @@ description: Research by Zhitong Chen in LLM agents, planning, and evaluation.
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=5">
-<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=9">
+<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=10">
 
 <div class="academic-topbar">
   <div class="academic-topbar-inner">
@@ -14,7 +14,8 @@ description: Research by Zhitong Chen in LLM agents, planning, and evaluation.
     <nav class="academic-navigation" aria-label="Homepage sections">
       <a href="{{ '/' | relative_url }}#about-me">About Me</a>
       <a href="{{ '/' | relative_url }}#news">News</a>
-      <a href="{{ '/' | relative_url }}#publications">Publications</a>
+      <a href="{{ '/' | relative_url }}#publications">Selected</a>
+      <a href="{{ '/' | relative_url }}#other-publications">Other Publications</a>
       <a href="{{ '/' | relative_url }}#education">Education</a>
       <a href="{{ '/' | relative_url }}#service">Service</a>
     </nav>
