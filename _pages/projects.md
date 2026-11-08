@@ -6,7 +6,7 @@ description: Research by Zhitong Chen in LLM agents, planning, and evaluation.
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=5">
-<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=6">
+<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=7">
 
 <div class="academic-topbar">
   <div class="academic-topbar-inner">
@@ -70,8 +70,11 @@ description: Research by Zhitong Chen in LLM agents, planning, and evaluation.
     <p class="project-description">{{ project.summary }}</p>
     <ul class="project-highlights">{% for point in project.highlights %}<li>{{ point | markdownify | remove: '<p>' | remove: '</p>' }}</li>{% endfor %}</ul>
     <div class="project-links">
+      {% if project.venue contains 'Preprint' %}
+      <a class="resource-button resource-arxiv" href="https://arxiv.org/abs/{{ project.arxiv }}"><i class="ai ai-arxiv" aria-hidden="true"></i>arXiv</a>
+      {% else %}
       <a class="resource-button resource-paper" href="{{ project.paper }}"><i class="fa-solid fa-book-open" aria-hidden="true"></i>Paper</a>
-      {% if project.arxiv %}<a class="resource-button resource-arxiv" href="https://arxiv.org/abs/{{ project.arxiv }}"><i class="ai ai-arxiv" aria-hidden="true"></i>arXiv</a>{% endif %}
+      {% endif %}
       {% if project.code %}<a class="resource-button resource-code" href="{{ project.code }}"><i class="fa-brands fa-github" aria-hidden="true"></i>Code</a>{% endif %}
       {% if project.dataset %}<a class="resource-button resource-data" href="{{ project.dataset }}"><span aria-hidden="true">🤗</span>Dataset</a>{% endif %}
     </div>

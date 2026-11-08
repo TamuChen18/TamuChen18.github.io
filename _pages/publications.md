@@ -7,7 +7,7 @@ description: Publications and manuscripts by Zhitong Chen.
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v=5">
-<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=6">
+<link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}?v=7">
 
 <div class="academic-topbar">
   <div class="academic-topbar-inner">

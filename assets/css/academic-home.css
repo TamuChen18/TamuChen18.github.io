@@ -1179,3 +1179,199 @@ body .publications {
 .academic-section .resource-data:hover {
   color: #332900;
 }
+
+/* Compact editorial layout with a light, personal blue backdrop. */
+body {
+  background-color: #f3f6fb;
+  background-image: radial-gradient(ellipse at 94% 0%, #dbe9fb 0, transparent 42%), radial-gradient(ellipse at 0% 48%, #e9f1fc 0, transparent 34%);
+  background-attachment: fixed;
+  font-size: 16px;
+  line-height: 1.6;
+}
+body > .container[role="main"],
+.academic-topbar-inner {
+  max-width: 1280px !important;
+}
+.academic-topbar {
+  box-shadow: 0 3px 18px #254d7c08;
+}
+.academic-shell {
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: 42px;
+  padding: 28px;
+  margin-top: 110px;
+  margin-bottom: 30px;
+  background: #ffffffed;
+  border: 1px solid #dfe7f2;
+  border-radius: 14px;
+  box-shadow: 0 10px 40px #24486f08;
+}
+.academic-section {
+  margin-bottom: 30px;
+  padding-bottom: 28px;
+}
+.academic-section p {
+  margin-bottom: 12px;
+}
+.academic-section h2 {
+  margin-bottom: 17px;
+}
+.about-section p {
+  line-height: 1.65;
+}
+.opportunity-note {
+  margin-top: 18px;
+  padding: 12px 15px;
+}
+.academic-content .publications .row {
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 23px;
+  align-items: start;
+}
+.academic-content .publications .title {
+  font-size: 17px;
+  line-height: 1.42;
+  margin-bottom: 7px;
+}
+.academic-content .publications .author {
+  font-size: 14px;
+  line-height: 1.55;
+  margin-bottom: 5px;
+}
+.academic-content .publications .author em.author-self {
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: #527aa9;
+}
+.academic-content .publications .periodical {
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+.academic-content .publications ol > li {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+.academic-content .publications .preview {
+  max-height: 190px;
+  padding: 3px;
+  border-radius: 5px;
+}
+.academic-content .publications .links {
+  margin-top: 8px;
+  gap: 6px;
+}
+.academic-content .publications .links .resource-arxiv,
+.project-links .resource-arxiv,
+.news-resources .resource-arxiv {
+  background: #b31b1b;
+  color: #fff;
+}
+.academic-content .publications .links .resource-code,
+.project-links .resource-code,
+.news-resources .resource-code {
+  background: #181717;
+  color: #fff;
+}
+.resource-code span,
+.resource-code i,
+.resource-arxiv span,
+.resource-arxiv i {
+  color: inherit;
+}
+.news-resources {
+  display: inline;
+  margin: 0 0 0 7px;
+}
+.news-resources .resource-button {
+  display: inline-flex;
+  vertical-align: middle;
+  margin: 2px 3px 2px 0;
+  padding: 1px 7px;
+  line-height: 1.45;
+  white-space: nowrap;
+}
+.news-list li {
+  margin-bottom: 12px;
+  gap: 12px;
+}
+.news-list p {
+  display: inline;
+  line-height: 1.65;
+  font-size: 15px;
+  margin: 0;
+}
+.news-list time {
+  padding-top: 0;
+  line-height: 1.8;
+}
+.paper-overview {
+  margin-top: 10px;
+}
+.overview-content {
+  padding: 10px 0 0;
+  margin-top: 5px;
+  background: transparent;
+  border: 0;
+  font-size: 14px;
+  line-height: 1.65;
+}
+.paper-overview[open] summary {
+  margin-bottom: 2px;
+}
+.overview-content li,
+.project-highlights li {
+  margin-bottom: 5px;
+}
+.project-highlights {
+  line-height: 1.65;
+}
+.research-project {
+  gap: 23px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+@media (max-width: 1000px) {
+  .academic-shell {
+    grid-template-columns: 205px minmax(0, 1fr);
+    gap: 28px;
+    padding: 22px;
+  }
+  .academic-content .publications .row {
+    grid-template-columns: 165px minmax(0, 1fr);
+    gap: 18px;
+  }
+}
+@media (max-width: 800px) {
+  .academic-shell {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 22px;
+  }
+  .academic-content .publications .row {
+    grid-template-columns: 200px minmax(0, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  body > .container[role="main"] {
+    padding: 0 12px !important;
+  }
+  .academic-shell {
+    margin-top: 122px;
+    padding: 19px 16px;
+    border-radius: 9px;
+    gap: 23px;
+  }
+  .academic-content .publications .row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+  .news-list p {
+    font-size: 14px;
+  }
+  .news-resources {
+    margin-left: 4px;
+  }
+}
